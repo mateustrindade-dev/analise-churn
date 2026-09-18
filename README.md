@@ -1,9 +1,9 @@
 # Análise Histórica e Predição de Churn (Retenção de Clientes)
 
-[![Python](https://shields.io)](https://python.org)
-[![PostgreSQL](https://shields.io)](https://postgresql.org)
-[![PowerBI](https://shields.io)](https://microsoft.com)
-[![Scikit-Learn](https://shields.io)](https://scikit-learn.org)
+![Python](https://shields.io)
+![PostgreSQL](https://shields.io)
+![PowerBI](https://shields.io)
+![Scikit-Learn](https://shields.io)
 
 ## Visão Geral do Projeto
 Este projeto implementa uma solução completa para identificar o perfil de cancelamento de clientes (Churn) de uma empresa de telecomunicações e antecipar o risco de evasão dos clientes atuais.
