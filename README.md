@@ -11,7 +11,6 @@ Este projeto implementa uma solução completa para identificar o perfil de canc
 A solução utiliza **Python** para análise preditiva com Machine Learning, **PostgreSQL** para o armazenamento e modelagem relacional dos dados, e **Power BI** para a entrega de um painel que exibe de forma clara os dados reunidos, de modo a permitir a adequada tomada de decisões por parte dos líderes da empresa.
 
 *   **Dataset Utilizado:** Telco Customer Churn (Fonte: Kaggle)
-*   **Link para o Dashboard Interativo:** [INSIRA_O_LINK_DO_SEU_POWER_BI_AQUI]
 
 ---
 
@@ -57,14 +56,15 @@ O relatório foi estruturado em duas visões estratégicas aplicando técnicas d
 
 ## 📂 Estrutura do Repositório
 ```text
+├── data/
+│   ├── WA_Fn-UseC_-Telco-Customer-Churn.csv    
 ├── notebooks/
-│   └── limpeza_e_modelagem_churn.ipynb  # Código Python (ETL e ML)
+│   └── limpeza_e_modelagem_churn.ipynb         
 ├── sql/
-│   ├── criacao_tabelas_ddl.sql          # Estrutura das tabelas no Postgres
-│   └── limpeza_tabelas.sql              # Comandos de manutenção
+│   ├── criacao_tabelas_ddl.sql                 
 ├── pbix/
-│   └── dashboard_retencao_telco.pbix    # Arquivo do Power BI
-└── README.md                            # Documentação do projeto
+│   └── dashboard_retencao_telco.pbix           
+└── README.md                                   
 ```
 
 ---
